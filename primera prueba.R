@@ -27,11 +27,11 @@ dim(serie2) # 500 x 14
 # 0. Transformar los datos en una serie temporal
 # 1. Graficarla
 # 2. Comprobar que sea estacionaria
-# 3. Hacer transformacion
-# 4. Definir el numero de parametros necesarios para arima
-# 5. Crear modelo
+# 3. Si no es estacionaria hacer transformaciones
+# 4. Definir el numero de parametros necesarios para Arima
+# 5. Crear modelo Arima
 # 6. Compara modelos y selecionar el mejor
-# 7. Residuos
+# 7. Verificar residuos
 # 8. Predicion
 
 ##############################################################################
