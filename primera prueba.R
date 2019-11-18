@@ -1,9 +1,5 @@
 
 
-# https://rpubs.com/palominoM/series
-# https://www.statmethods.net/advstats/timeseries.html
-# https://rpubs.com/joser/SeriesTemporalesBasicas
-
 ##############################################################################
 ### Librerias necesarias
 ############################################################################
@@ -107,4 +103,11 @@ ggtsdiag(arima1)
 forecast1<-forecast(arima1, level = c(95), h = 50)
 autoplot(forecast1)
 
+##############################################################################
+### 8. Biografia
+############################################################################
+
+# https://rpubs.com/palominoM/series
+# https://www.statmethods.net/advstats/timeseries.html
+# https://rpubs.com/joser/SeriesTemporalesBasicas
 
